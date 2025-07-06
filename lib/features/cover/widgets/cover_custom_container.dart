@@ -15,6 +15,13 @@ class CoverCustomContainer extends StatelessWidget {
       decoration: BoxDecoration(
         color: AppColors.darkGreen,
         borderRadius: BorderRadius.circular(60),
+        boxShadow: [
+          BoxShadow(
+            color: AppColors.white,
+            blurRadius: 1,
+            offset: Offset(8, 8),
+          ),
+        ],
       ),
       child: Text(
         AppStrings.whoAreYou,

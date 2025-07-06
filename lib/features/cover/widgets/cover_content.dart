@@ -23,7 +23,7 @@ class CoverContent extends StatelessWidget {
                 CoverSubTitleWidget(),
                 SizedBox(height: 40),
                 CoverCustomContainer(),
-                SizedBox(height: 25),
+                SizedBox(height: 50),
                 CoverRowOfButtons(),
               ],
             ),

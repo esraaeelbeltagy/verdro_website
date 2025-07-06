@@ -13,7 +13,7 @@ class CoverDesktopView extends StatelessWidget {
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage(Assets.imagesCoverBackGround),
-            fit: BoxFit.cover,
+            fit: BoxFit.fill,
           ),
         ),
         child: ListView(

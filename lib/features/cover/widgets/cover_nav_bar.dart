@@ -1,8 +1,8 @@
 
 import 'package:flutter/widgets.dart';
 import 'package:verdro_web/core/utils/app_strings.dart';
-import 'package:verdro_web/features/cover/widgets/cover_custom_button.dart';
-import 'package:verdro_web/features/cover/widgets/cover_logo.dart';
+import 'package:verdro_web/core/widgets/custom_dark_orange_button.dart';
+import 'package:verdro_web/core/widgets/site_logo.dart';
 
 
 class CoverNavBar extends StatelessWidget {
@@ -17,12 +17,11 @@ class CoverNavBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          CoverLogo(),
-          CoverCustomButton(text: AppStrings.joinUs , 
-          onPressed: () {
-            // Handle join us button press
-          },
-          ),
+          SiteLogo(),
+          CustomDarkOrangeButton(
+            text: AppStrings.signIn,
+            onPressed: (){},
+          )
         ],
       ),
     );

@@ -19,7 +19,7 @@ class CoverRowOfButtons extends StatelessWidget {
         onPressed: (){
           Navigator.push(context,
             MaterialPageRoute(
-              builder: (context) => const PeopleLayout(),
+              builder: (context) =>  PeopleLayout(),
             ),
           );
         },
@@ -30,7 +30,7 @@ class CoverRowOfButtons extends StatelessWidget {
            onPressed: (){
               Navigator.push(context,
             MaterialPageRoute(
-              builder: (context) => const InvestorsLayout(),
+              builder: (context) =>  InvestorsLayout(),
             ),
           );
 
